@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ManagementService/1.0.0": {
+        "dependencies": {
+          "BusinessObject": "1.0.0",
+          "ManagementRepository": "1.0.0"
+        },
+        "runtime": {
+          "ManagementService.dll": {}
+        }
+      },
+      "BusinessObject/1.0.0": {
+        "runtime": {
+          "BusinessObject.dll": {}
+        }
+      },
+      "ManagementDAO/1.0.0": {
+        "dependencies": {
+          "BusinessObject": "1.0.0"
+        },
+        "runtime": {
+          "ManagementDAO.dll": {}
+        }
+      },
+      "ManagementRepository/1.0.0": {
+        "dependencies": {
+          "BusinessObject": "1.0.0",
+          "ManagementDAO": "1.0.0"
+        },
+        "runtime": {
+          "ManagementRepository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ManagementService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessObject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManagementDAO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManagementRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
